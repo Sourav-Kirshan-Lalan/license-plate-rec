@@ -11,3 +11,4 @@ This project implements an automated License Plate Recognition (LPR) system usin
 ## 📊 Results
 
 The system draws bounding boxes around detected license plates and displays the recognized text, saving annotated images and logs.
+![Alt text](result.jpg)
