@@ -1,14 +1,34 @@
-# License Plate Recognition System
 
-This project implements an automated License Plate Recognition (LPR) system using deep learning. It processes images or video frames to detect vehicles and recognize their license plates in real-time.
+# 🚗 License Plate Recognition System using YOLO & OCR
 
-## 🚀 Features
+This project implements a **License Plate Recognition System** using **YOLO (You Only Look Once)** for real-time license plate detection and **Easy OCR** for extracting the license number from detected plates.
 
-- Vehicle and license plate detection using deep learning (YOLO).
-- Easy to customize or fine-tune with your own dataset.
+## Overview
+
+The system performs the following steps:
+
+1. Detects license plates in images using a pre-trained YOLO model.
+2. Extracts the plate region and applies image processing for better OCR results.
+3. Uses Easy OCR to read and recognize the text on the license plate.
 
 
-## 📊 Results
+## Technologies Used
+
+- **YOLO** – For license plate detection
+- **OpenCV** – For image processing
+- **EasyOcr** – For Optical Character Recognition
+- **Python** – Programming language
+
+
+
+## How to Run
+
+- Run the `plate.ipynb` notebook step-by-step.
+- Upload test images to the `images/` folder or Colab cell.
+- Results will be displayed and saved to the `outputs/` folder.
+
+
+## Results
 
 The system draws bounding boxes around detected license plates and displays the recognized text, saving annotated images and logs.
 ![Alt text](result.jpg)
